@@ -98,18 +98,18 @@ books-review-api/
 └── README.md  
 
 ```
-##✨ Future Enhancements
+✨ Future Enhancements
 Add user roles (admin, regular user)
 Add rating system for reviews
 Pagination and sorting improvements
 Dockerize the app for easier deployment
 
-##🤝 Contributing
+🤝 Contributing
 Contributions welcome! Please open issues or pull requests.
 
-##📄 License
+📄 License
 This project is licensed under the MIT License.
 
-##📬 Contact
+📬 Contact
 Created by Gaurav More
 📧 gauravmore33444@gmail.com
