@@ -61,23 +61,55 @@ http://localhost:3000
 ```
 📄 API Endpoints
 Authentication
+```
 POST /api/register – Register new user
 POST /api/login – User login and receive JWT
-
+```
 Books
+```
 GET /api/books – List all books
 GET /api/books/:id – Get book details
 POST /api/books – Add a new book (auth required)
 PUT /api/books/:id – Update a book (auth required)
 DELETE /api/books/:id – Delete a book (auth required)
-
+```
 Reviews
+```
 GET /api/books/:id/reviews – Get reviews for a book
 POST /api/books/:id/reviews – Add review to a book (auth required)
 PUT /api/reviews/:reviewId – Update a review (auth required)
 DELETE /api/reviews/:reviewId – Delete a review (auth required)
-
-🔧 Testing
+```
+##🔧 Testing
 Use Postman or any API testing tool to interact with the endpoints.
 
 ##📁 Folder Structure
+```bash
+books-review-api/
+│
+├── controllers/          # Request handlers  
+├── middleware/           # Auth and validation middleware  
+├── models/               # Database models  
+├── routes/               # API routes  
+├── config/               # Database and app config  
+├── app.js                # Main Express app  
+├── package.json  
+├── .env                  # Environment variables  
+└── README.md  
+
+```
+✨ Future Enhancements
+Add user roles (admin, regular user)
+Add rating system for reviews
+Pagination and sorting improvements
+Dockerize the app for easier deployment
+
+🤝 Contributing
+Contributions welcome! Please open issues or pull requests.
+
+📄 License
+This project is licensed under the MIT License.
+
+##📬 Contact
+Created by Your Name
+📧 your.email@example.com
